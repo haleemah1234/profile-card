@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .eachUsers{
+            width: 23%;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+         .eachUsers img{
+            width: 70%;
+            height: 180px;
+        }
+         #allUsers{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        p{
+            font-size: 20px;
+        }
+        h4{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        @media screen and (max-width:768px) {
+            .eachUsers{
+                width: 100%;
+            }
+            p{
+            font-size: 25px;
+        }
+
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="allUsers"></div>
+    <script src="script.js"></script>
+</body>
+</html>
