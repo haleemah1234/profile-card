@@ -21,8 +21,7 @@ fetch(url, fetchData)
       return `
             <div class="eachUsers">
                 <img src="${value.image}" alt="">
-                <h1>${value.firstName}</h1>
-                <h2>${value.lastName}</h2>
+                <h1>${value.firstName} <span>${value.lastName}</span></h1>
                 <p>${value.email}</p>
                 <h4>${value.gender[0].toUpperCase() + value.gender.slice(1)}</h4>
 
