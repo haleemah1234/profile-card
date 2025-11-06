@@ -8,14 +8,21 @@
         .eachUsers{
             width: 23%;
             text-align: center;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: 0px 3px 4px 3px greenyellow;
             padding: 20px;
+            height: 390px;
+            color: white;
             margin-bottom: 30px;
             position: relative;
+            border-radius: 10px;
+            background-color: green;
         }
          .eachUsers img{
-            width: 70%;
+            width: 60%;
             height: 180px;
+            background-color: rgb(133, 248, 133);
+            border-radius: 100%;
+
         }
          #allUsers{
             display: flex;
@@ -32,6 +39,12 @@
         @media screen and (max-width:768px) {
             .eachUsers{
                 width: 100%;
+                height: 400px;
+                padding: 0px;
+            }
+            .eachUsers img{
+                width: 50%;
+                height: 170px;
             }
             p{
             font-size: 25px;

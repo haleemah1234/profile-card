@@ -24,7 +24,7 @@ fetch(url, fetchData)
                 <h1>${value.firstName}</h1>
                 <h2>${value.lastName}</h2>
                 <p>${value.email}</p>
-                <h4>${value.gender}</h4>
+                <h4>${value.gender[0].toUpperCase() + value.gender.slice(1)}</h4>
 
              </div>
         `
@@ -33,7 +33,7 @@ fetch(url, fetchData)
 })
 
 .catch(function(error){
-    alert("Error fetching product")
+    alert("Error fetching users")
     console.log(error);
     
 })
